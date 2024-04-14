@@ -12,7 +12,7 @@ const HookForm = () => {
     return (
         <div>
             <form onSubmit={handleSubmit}>
-                <input value={name} onChange={handleNameChange} type="text" name="name"/>
+                <input value={name} onChange={nameState} type="text" name="name"/>
                 <br />
                 <input type="email" name="email" id="" />
                 <br />
